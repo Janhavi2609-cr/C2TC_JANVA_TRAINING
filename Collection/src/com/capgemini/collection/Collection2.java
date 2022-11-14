@@ -20,15 +20,27 @@ public class Collection2 {
 		obj.add(40);
 		obj.add(50);
 		obj.add(60);
+		//obj.add(70);
 		
+		System.out.println(obj);
+		
+		obj.remove();
+		obj.remove();
+		obj.remove();
 		
 		System.out.println(obj);
 		
-		obj.remove();
-		obj.remove();
-		obj.remove();
+		//returns the head element of the list 
+		System.out.println(obj.peek());
 		
-		System.out.println(obj);
+		//returns the number of element in the list
+		System.out.println(obj.size());
+		
+		//retrives and remove the first element or return null if queue is empty
+		System.out.println(obj.poll());
+		
+		System.out.println(obj.add(70));
+		
 	}
 
 }
