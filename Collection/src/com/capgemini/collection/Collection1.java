@@ -25,6 +25,7 @@ public class Collection1 {
 		System.out.println(obj.peek());
 		System.out.println(obj.search(200));
 		//System.out.println(obj);
+
 	}
 
 }

@@ -56,6 +56,7 @@ public class Collection3 {
 		//returns  the first element and returns null if list is empty
 		System.out.println(obj.peekFirst());
 		
+		//System.out.println(obj.poll());
 	}
 
 }
